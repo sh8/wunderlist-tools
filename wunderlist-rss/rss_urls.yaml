@@ -1,0 +1,5 @@
+# Set RSS feed urls
+- 'http://jp.techcrunch.com/feed/', # Tech Crunch Japan
+- 'http://wired.jp/rssfeeder/', # Wired Japan
+- 'http://feeds.feedburner.com/SdJapan', # the bridge
+- 'http://techlife.cookpad.com/feed/' # Cockpad Developers Blog
