@@ -55,7 +55,7 @@ With heroku
   $ rake hogehoge
   ```
 
-### Wunerlist RSS
+### Wunderlist RSS
 
 1. set RSS feed urls at wunderlist-rss/rss_urls.yaml
 
