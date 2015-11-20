@@ -7,7 +7,7 @@ require 'yaml'
 
 class RssGetter
   def get_feed
-    urls = YAML.load('rss_urls.yaml')
+    urls = YAML.load_file(File.join(__dir__, 'rss_urls.yaml'))
     feeds = []
     urls.each do |u|
       open(u) do |rss|

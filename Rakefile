@@ -1,5 +1,5 @@
 task :get_articles do
-  require_relative 'wunderlist-rss-tasker/app.rb'
+  require_relative 'wunderlist-rss/app.rb'
   wa = Wunderlist::RSS.new
   wa.run
 end
