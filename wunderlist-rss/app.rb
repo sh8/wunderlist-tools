@@ -7,8 +7,10 @@ module Wunderlist
     def run
       list_name = "Articles"
 
-      credentials = YAML.load_file('credentials.yaml')
-      wl = Wunderlist::API.new(credentials)
+      wl = Wunderlist::API.new({
+        :access_token => ENV["ACCESS_TOKEN"],
+        :client_id => ENV["CLIENT_ID"]
+      })
       rss_getter = RssGetter.new
       articles = rss_getter.get_feed
       articles.each do |a|
