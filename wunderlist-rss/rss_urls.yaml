@@ -4,5 +4,5 @@
 - 'http://feeds.feedburner.com/SdJapan' # the bridge
 - 'http://techlife.cookpad.com/feed/' # Cockpad Developers Blog
 - 'http://techlife.cookpad.com/feed/' # Cockpad Developers Blog
-- 'http://info.shimamura.co.jp/guitar/news/feed/' # Guitar Selection
+- 'http://info.shimamura.co.jp/guitar/article_news/%E3%82%A8%E3%83%95%E3%82%A7%E3%82%AF%E3%82%BF%E3%83%BC/feed/' # Guitar Selection
 - 'http://www.ikebe-gakki-pb.com/new_product/?feed=rss2' # Ikebe new products blog
